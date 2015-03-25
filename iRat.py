@@ -1,5 +1,8 @@
 #!/usr/bin/python
 
+### File   : iRat.py
+### Author : Swarvanu Sengupta
+
 import eyeD3
 import os
 import sys
@@ -45,6 +48,9 @@ def generateMp3Name(trackArtist, trackTitle, trackAlbum, nameFormat, duplicateNo
     newFileFullName = newFileName + ".mp3"
   else :
     newFileFullName = newFileName + "_" + str(duplicateNo) + ".mp3"
+
+  # replace all occurence of "/"
+  newFileFullName =  newFileFullName.replace("/", "")
 
   return newFileFullName
 
