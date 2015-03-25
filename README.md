@@ -17,7 +17,7 @@ iRat do it for you.
  
 Use: 
  
-iRat.py -I <input_folder> -O <output_folder> -N <name_format>
+iRat.py -I <'input_folder'> -O <'output_folder'> -N <'name_format'>
  
 
 Option:
