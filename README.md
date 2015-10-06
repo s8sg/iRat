@@ -42,7 +42,6 @@ iRat provides multiple nameing Format to name the mp3 file as you want it. So no
 **-r**     : Allow recursive search. Search recursively from the input folder
 ``` 
 ### More Info:
-This is an early release. I’ve been using it for a while and this is the
-third interface I’ve tried. I like this one pretty well, but no guarantees
+This is an early release. I’ve been using it for a while and I like this one pretty well, but no guarantees
 that it won’t change a bit.
 
